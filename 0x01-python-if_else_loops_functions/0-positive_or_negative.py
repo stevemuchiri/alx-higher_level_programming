@@ -9,8 +9,8 @@ number = random.randint(-100, 100)
 print("The number:", number)
 
 if number > 0:
-    print("is positive")
+    print("{}is positive".formart(number))
 elif number == 0:
-    print("is zero")
+    print("{}is zero".format(number))
 else:
-    print("is negative")
+    print("{}is negative".format())
