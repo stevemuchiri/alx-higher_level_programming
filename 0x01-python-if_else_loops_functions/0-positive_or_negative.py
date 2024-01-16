@@ -6,12 +6,12 @@ number = random.randint(-100, 100)
 
 if number > 0:
 
-    print("{}is positive".fomart(number))
+    print("{} is positive".fomart(number))
 
 elif number == 0:
 
-    print("{}is zero".fomat(number))
+    print("{} is zero".fomat(number))
 
 else:
 
-    print("{}is negative".fomat())
+    print("{} is negative".fomat())
