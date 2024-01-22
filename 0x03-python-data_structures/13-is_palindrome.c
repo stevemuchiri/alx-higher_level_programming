@@ -5,7 +5,7 @@
  * @head: Pointer to the head of the linked list
  * Return: Pointer to the new head of the reversed list
  */
-listint_t *reverse_list(listint_t *head)
+listint_t *reverse_list(listint_t **head)
 {
 	listint_t *node = *head, *next, *prev = NULL;
 
