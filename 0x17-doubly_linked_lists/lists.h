@@ -3,14 +3,14 @@
 
 #include <stddef.h>
 /**
- * struct dlistint_s - Doubly linked list node structure
- * @n: Integer data stored in the node
- * @prev: Pointer to the previous node in the list
- * @next: Pointer to the next node in the list
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
+ * @next: points to the next node
  *
- * Description: This structure defines a node for a doubly linked list.
+ * Description: doubly linked list node structure
+ *
  */
-
 typedef struct dlistint_s
 {
 	int n;
